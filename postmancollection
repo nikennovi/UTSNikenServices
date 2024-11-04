@@ -1,0 +1,501 @@
+{
+	"info": {
+		"_postman_id": "8504b41b-a2f7-4c5a-b331-0490b7c245c1",
+		"name": "UTSNikenServices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39156307"
+	},
+	"item": [
+		{
+			"name": "http://localhost/services/services.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/services/services.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"services",
+						"services.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/services/services.php",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/services/services.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"services",
+								"services.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 04:11:05 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.4.12"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, durationization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "338"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"nail art polos\",\n        \"duration\": \"01:30:00\",\n        \"price\": 35000,\n        \"category\": \"kuku\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"nail art motif 4\",\n        \"duration\": \"01:30:00\",\n        \"price\": 50000,\n        \"category\": \"kuku\"\n    },\n    {\n        \"id\": 3,\n        \"name\": \"eyelash\",\n        \"duration\": \"00:30:00\",\n        \"price\": 75000,\n        \"category\": \"mata\"\n    },\n    {\n        \"id\": 4,\n        \"name\": \"lashlift\",\n        \"duration\": \"00:30:00\",\n        \"price\": 40000,\n        \"category\": \"mata\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/services/services.php",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"name\": \"nail art 6 motif\",\r\n        \"duration\": \"01:30:00\",\r\n        \"price\": 100000,\r\n        \"category\": \"kuku\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/services/services.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"services",
+						"services.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/services/services.php",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n        \"name\": \"nail art 6 motif\",\r\n        \"duration\": \"01:30:00\",\r\n        \"price\": 100000,\r\n        \"category\": \"kuku\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/services/services.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"services",
+								"services.php"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 04:14:58 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.4.12"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, durationization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "39"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"services created\",\n    \"id\": \"5\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/services/services.php/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/services/services.php/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"services",
+						"services.php",
+						"3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/services/services.php/3",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/services/services.php/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"services",
+								"services.php",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 04:18:14 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.4.12"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, durationization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "79"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 3,\n    \"name\": \"eyelash\",\n    \"duration\": \"00:30:00\",\n    \"price\": 75000,\n    \"category\": \"mata\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/services/services.php/4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"lashlift\",\r\n        \"duration\": \"00:30:00\",\r\n        \"price\": 45000,\r\n        \"category\": \"mata\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/services/services.php/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"services",
+						"services.php",
+						"4"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/services/services.php/4",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\": \"lashlift\",\r\n        \"duration\": \"00:30:00\",\r\n        \"price\": 45000,\r\n        \"category\": \"mata\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/services/services.php/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"services",
+								"services.php",
+								"4"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 04:20:41 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.4.12"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, durationization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "30"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"services updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/services/services.php/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/services/services.php/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"services",
+						"services.php",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/services/services.php/1",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/services/services.php/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"services",
+								"services.php",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 04:21:36 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.4.12"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, durationization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "30"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"services deleted\"\n}"
+				}
+			]
+		}
+	]
+}
